@@ -19,11 +19,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 
-		ServiceImpl serviceImpl = new ServiceImpl();
 
-		Response response = serviceImpl.checkWeather();
-
-		System.out.println(response);
 	}
 
 }
