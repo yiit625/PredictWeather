@@ -9,13 +9,18 @@ import java.io.IOException;
 
 public class ServiceImpl implements Services {
 
-    @Override
     public Response checkWeather() {
      // https://rapidapi.com/sangatpuria01/api/weather-com/endpoints
     Response response = null;
     try {
 
         OkHttpClient client = new OkHttpClient();
+        
+        
+        
+        
+        
+        
 
         Request request = new Request.Builder()
                 .url("https://weather-com.p.rapidapi.com/v3/wx/disease/tracker/countryList/current?language=en")
