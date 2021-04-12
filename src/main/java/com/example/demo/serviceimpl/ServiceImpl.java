@@ -15,12 +15,6 @@ public class ServiceImpl implements Services {
     try {
 
         OkHttpClient client = new OkHttpClient();
-        
-        
-        
-        
-        
-        
 
         Request request = new Request.Builder()
                 .url("https://weather-com.p.rapidapi.com/v3/wx/disease/tracker/countryList/current?language=en")
